@@ -1,0 +1,47 @@
+
+services:
+  postgres:
+    image: postgres:15-alpine
+    container_name: etl_postgres
+    environment:
+      POSTGRES_USER: etl_user
+      POSTGRES_PASSWORD: etl_password
+      POSTGRES_DB: etl_config_db
+    ports:
+      - "5432:5432"
+    volumes:
+      - postgres_data:/var/lib/postgresql/data
+      - ./init-db:/docker-entrypoint-initdb.d
+    healthcheck:
+      test: ["CMD-SHELL", "pg_isready -U etl_user -d etl_config_db"]
+      interval: 5s
+      timeout: 5s
+      retries: 10
+    networks:
+      - etl_network
+
+  etl-spark:
+    build:
+      context: .
+      dockerfile: Dockerfile
+    container_name: etl_spark_app
+    depends_on:
+      postgres:
+        condition: service_healthy
+    environment:
+      - CONFIG_PATH=/app/config/pipeline_config.json
+      - PYTHONPATH=/app
+    volumes:
+      - ./data:/app/data
+      - ./logs:/app/logs
+      - ./config:/app/config
+      - ./src:/app/src
+    networks:
+      - etl_network
+
+volumes:
+  postgres_data:
+
+networks:
+  etl_network:
+    driver: bridge

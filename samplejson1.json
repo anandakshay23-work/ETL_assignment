@@ -1,0 +1,1202 @@
+[
+  {
+    "company": {
+      "company_id": "C001",
+      "details": {
+        "year": 2023,
+        "financials": {
+          "revenue": 3813,
+          "currency": "INR"
+        }
+      }
+    }
+  },
+  {
+    "company": {
+      "company_id": "C002",
+      "details": {
+        "year": 2023,
+        "financials": {
+          "revenue": 1431,
+          "currency": "USD"
+        }
+      }
+    }
+  },
+  {
+    "company": {
+      "company_id": "C003",
+      "details": {
+        "year": 2023,
+        "financials": {
+          "revenue": 4341,
+          "currency": "USD"
+        }
+      }
+    }
+  },
+  {
+    "company": {
+      "company_id": "C004",
+      "details": {
+        "year": 2023,
+        "financials": {
+          "revenue": 3208,
+          "currency": "INR"
+        }
+      }
+    }
+  },
+  {
+    "company": {
+      "company_id": "C005",
+      "details": {
+        "year": 2023,
+        "financials": {
+          "revenue": 3065,
+          "currency": "EUR"
+        }
+      }
+    }
+  },
+  {
+    "company": {
+      "company_id": "C006",
+      "details": {
+        "year": 2023,
+        "financials": {
+          "revenue": 2034,
+          "currency": "INR"
+        }
+      }
+    }
+  },
+  {
+    "company": {
+      "company_id": "C007",
+      "details": {
+        "year": 2023,
+        "financials": {
+          "revenue": 2831,
+          "currency": "INR"
+        }
+      }
+    }
+  },
+  {
+    "company": {
+      "company_id": "C008",
+      "details": {
+        "year": 2023,
+        "financials": {
+          "revenue": 3069,
+          "currency": "EUR"
+        }
+      }
+    }
+  },
+  {
+    "company": {
+      "company_id": "C009",
+      "details": {
+        "year": 2023,
+        "financials": {
+          "revenue": 3818,
+          "currency": "EUR"
+        }
+      }
+    }
+  },
+  {
+    "company": {
+      "company_id": "C010",
+      "details": {
+        "year": 2023,
+        "financials": {
+          "revenue": 1276,
+          "currency": "INR"
+        }
+      }
+    }
+  },
+  {
+    "company": {
+      "company_id": "C011",
+      "details": {
+        "year": 2023,
+        "financials": {
+          "revenue": 4966,
+          "currency": "EUR"
+        }
+      }
+    }
+  },
+  {
+    "company": {
+      "company_id": "C012",
+      "details": {
+        "year": 2023,
+        "financials": {
+          "revenue": 3004,
+          "currency": "INR"
+        }
+      }
+    }
+  },
+  {
+    "company": {
+      "company_id": "C013",
+      "details": {
+        "year": 2023,
+        "financials": {
+          "revenue": 3698,
+          "currency": "EUR"
+        }
+      }
+    }
+  },
+  {
+    "company": {
+      "company_id": "C014",
+      "details": {
+        "year": 2023,
+        "financials": {
+          "revenue": 2878,
+          "currency": "USD"
+        }
+      }
+    }
+  },
+  {
+    "company": {
+      "company_id": "C015",
+      "details": {
+        "year": 2023,
+        "financials": {
+          "revenue": 2046,
+          "currency": "USD"
+        }
+      }
+    }
+  },
+  {
+    "company": {
+      "company_id": "C016",
+      "details": {
+        "year": 2023,
+        "financials": {
+          "revenue": 3834,
+          "currency": "USD"
+        }
+      }
+    }
+  },
+  {
+    "company": {
+      "company_id": "C017",
+      "details": {
+        "year": 2023,
+        "financials": {
+          "revenue": 3906,
+          "currency": "EUR"
+        }
+      }
+    }
+  },
+  {
+    "company": {
+      "company_id": "C018",
+      "details": {
+        "year": 2023,
+        "financials": {
+          "revenue": 2614,
+          "currency": "INR"
+        }
+      }
+    }
+  },
+  {
+    "company": {
+      "company_id": "C019",
+      "details": {
+        "year": 2023,
+        "financials": {
+          "revenue": 4377,
+          "currency": "USD"
+        }
+      }
+    }
+  },
+  {
+    "company": {
+      "company_id": "C020",
+      "details": {
+        "year": 2023,
+        "financials": {
+          "revenue": 4556,
+          "currency": "EUR"
+        }
+      }
+    }
+  },
+  {
+    "company": {
+      "company_id": "C021",
+      "details": {
+        "year": 2023,
+        "financials": {
+          "revenue": 4447,
+          "currency": "EUR"
+        }
+      }
+    }
+  },
+  {
+    "company": {
+      "company_id": "C022",
+      "details": {
+        "year": 2023,
+        "financials": {
+          "revenue": 3658,
+          "currency": "INR"
+        }
+      }
+    }
+  },
+  {
+    "company": {
+      "company_id": "C023",
+      "details": {
+        "year": 2023,
+        "financials": {
+          "revenue": 4738,
+          "currency": "EUR"
+        }
+      }
+    }
+  },
+  {
+    "company": {
+      "company_id": "C024",
+      "details": {
+        "year": 2023,
+        "financials": {
+          "revenue": 2305,
+          "currency": "INR"
+        }
+      }
+    }
+  },
+  {
+    "company": {
+      "company_id": "C025",
+      "details": {
+        "year": 2023,
+        "financials": {
+          "revenue": 1550,
+          "currency": "INR"
+        }
+      }
+    }
+  },
+  {
+    "company": {
+      "company_id": "C026",
+      "details": {
+        "year": 2023,
+        "financials": {
+          "revenue": 4495,
+          "currency": "EUR"
+        }
+      }
+    }
+  },
+  {
+    "company": {
+      "company_id": "C027",
+      "details": {
+        "year": 2023,
+        "financials": {
+          "revenue": 3079,
+          "currency": "EUR"
+        }
+      }
+    }
+  },
+  {
+    "company": {
+      "company_id": "C028",
+      "details": {
+        "year": 2023,
+        "financials": {
+          "revenue": 3886,
+          "currency": "USD"
+        }
+      }
+    }
+  },
+  {
+    "company": {
+      "company_id": "C029",
+      "details": {
+        "year": 2023,
+        "financials": {
+          "revenue": 3382,
+          "currency": "EUR"
+        }
+      }
+    }
+  },
+  {
+    "company": {
+      "company_id": "C030",
+      "details": {
+        "year": 2023,
+        "financials": {
+          "revenue": 3615,
+          "currency": "USD"
+        }
+      }
+    }
+  },
+  {
+    "company": {
+      "company_id": "C031",
+      "details": {
+        "year": 2023,
+        "financials": {
+          "revenue": 1283,
+          "currency": "USD"
+        }
+      }
+    }
+  },
+  {
+    "company": {
+      "company_id": "C032",
+      "details": {
+        "year": 2023,
+        "financials": {
+          "revenue": 4613,
+          "currency": "INR"
+        }
+      }
+    }
+  },
+  {
+    "company": {
+      "company_id": "C033",
+      "details": {
+        "year": 2023,
+        "financials": {
+          "revenue": 2744,
+          "currency": "USD"
+        }
+      }
+    }
+  },
+  {
+    "company": {
+      "company_id": "C034",
+      "details": {
+        "year": 2023,
+        "financials": {
+          "revenue": 3001,
+          "currency": "EUR"
+        }
+      }
+    }
+  },
+  {
+    "company": {
+      "company_id": "C035",
+      "details": {
+        "year": 2023,
+        "financials": {
+          "revenue": 4041,
+          "currency": "USD"
+        }
+      }
+    }
+  },
+  {
+    "company": {
+      "company_id": "C036",
+      "details": {
+        "year": 2023,
+        "financials": {
+          "revenue": 1587,
+          "currency": "INR"
+        }
+      }
+    }
+  },
+  {
+    "company": {
+      "company_id": "C037",
+      "details": {
+        "year": 2023,
+        "financials": {
+          "revenue": 2703,
+          "currency": "USD"
+        }
+      }
+    }
+  },
+  {
+    "company": {
+      "company_id": "C038",
+      "details": {
+        "year": 2023,
+        "financials": {
+          "revenue": 2187,
+          "currency": "EUR"
+        }
+      }
+    }
+  },
+  {
+    "company": {
+      "company_id": "C039",
+      "details": {
+        "year": 2023,
+        "financials": {
+          "revenue": 4761,
+          "currency": "EUR"
+        }
+      }
+    }
+  },
+  {
+    "company": {
+      "company_id": "C040",
+      "details": {
+        "year": 2023,
+        "financials": {
+          "revenue": 4815,
+          "currency": "USD"
+        }
+      }
+    }
+  },
+  {
+    "company": {
+      "company_id": "C041",
+      "details": {
+        "year": 2023,
+        "financials": {
+          "revenue": 2844,
+          "currency": "INR"
+        }
+      }
+    }
+  },
+  {
+    "company": {
+      "company_id": "C042",
+      "details": {
+        "year": 2023,
+        "financials": {
+          "revenue": 1369,
+          "currency": "INR"
+        }
+      }
+    }
+  },
+  {
+    "company": {
+      "company_id": "C043",
+      "details": {
+        "year": 2023,
+        "financials": {
+          "revenue": 2683,
+          "currency": "EUR"
+        }
+      }
+    }
+  },
+  {
+    "company": {
+      "company_id": "C044",
+      "details": {
+        "year": 2023,
+        "financials": {
+          "revenue": 4122,
+          "currency": "INR"
+        }
+      }
+    }
+  },
+  {
+    "company": {
+      "company_id": "C045",
+      "details": {
+        "year": 2023,
+        "financials": {
+          "revenue": 4119,
+          "currency": "INR"
+        }
+      }
+    }
+  },
+  {
+    "company": {
+      "company_id": "C046",
+      "details": {
+        "year": 2023,
+        "financials": {
+          "revenue": 3846,
+          "currency": "EUR"
+        }
+      }
+    }
+  },
+  {
+    "company": {
+      "company_id": "C047",
+      "details": {
+        "year": 2023,
+        "financials": {
+          "revenue": 3676,
+          "currency": "INR"
+        }
+      }
+    }
+  },
+  {
+    "company": {
+      "company_id": "C048",
+      "details": {
+        "year": 2023,
+        "financials": {
+          "revenue": 3170,
+          "currency": "USD"
+        }
+      }
+    }
+  },
+  {
+    "company": {
+      "company_id": "C049",
+      "details": {
+        "year": 2023,
+        "financials": {
+          "revenue": 3789,
+          "currency": "EUR"
+        }
+      }
+    }
+  },
+  {
+    "company": {
+      "company_id": "C050",
+      "details": {
+        "year": 2023,
+        "financials": {
+          "revenue": 3810,
+          "currency": "EUR"
+        }
+      }
+    }
+  },
+  {
+    "company": {
+      "company_id": "C051",
+      "details": {
+        "year": 2023,
+        "financials": {
+          "revenue": 4005,
+          "currency": "INR"
+        }
+      }
+    }
+  },
+  {
+    "company": {
+      "company_id": "C052",
+      "details": {
+        "year": 2023,
+        "financials": {
+          "revenue": 2473,
+          "currency": "EUR"
+        }
+      }
+    }
+  },
+  {
+    "company": {
+      "company_id": "C053",
+      "details": {
+        "year": 2023,
+        "financials": {
+          "revenue": 4266,
+          "currency": "USD"
+        }
+      }
+    }
+  },
+  {
+    "company": {
+      "company_id": "C054",
+      "details": {
+        "year": 2023,
+        "financials": {
+          "revenue": 4868,
+          "currency": "INR"
+        }
+      }
+    }
+  },
+  {
+    "company": {
+      "company_id": "C055",
+      "details": {
+        "year": 2023,
+        "financials": {
+          "revenue": 4120,
+          "currency": "EUR"
+        }
+      }
+    }
+  },
+  {
+    "company": {
+      "company_id": "C056",
+      "details": {
+        "year": 2023,
+        "financials": {
+          "revenue": 4965,
+          "currency": "INR"
+        }
+      }
+    }
+  },
+  {
+    "company": {
+      "company_id": "C057",
+      "details": {
+        "year": 2023,
+        "financials": {
+          "revenue": 2443,
+          "currency": "EUR"
+        }
+      }
+    }
+  },
+  {
+    "company": {
+      "company_id": "C058",
+      "details": {
+        "year": 2023,
+        "financials": {
+          "revenue": 4852,
+          "currency": "USD"
+        }
+      }
+    }
+  },
+  {
+    "company": {
+      "company_id": "C059",
+      "details": {
+        "year": 2023,
+        "financials": {
+          "revenue": 1503,
+          "currency": "EUR"
+        }
+      }
+    }
+  },
+  {
+    "company": {
+      "company_id": "C060",
+      "details": {
+        "year": 2023,
+        "financials": {
+          "revenue": 4372,
+          "currency": "USD"
+        }
+      }
+    }
+  },
+  {
+    "company": {
+      "company_id": "C061",
+      "details": {
+        "year": 2023,
+        "financials": {
+          "revenue": 3551,
+          "currency": "USD"
+        }
+      }
+    }
+  },
+  {
+    "company": {
+      "company_id": "C062",
+      "details": {
+        "year": 2023,
+        "financials": {
+          "revenue": 3936,
+          "currency": "EUR"
+        }
+      }
+    }
+  },
+  {
+    "company": {
+      "company_id": "C063",
+      "details": {
+        "year": 2023,
+        "financials": {
+          "revenue": 1915,
+          "currency": "USD"
+        }
+      }
+    }
+  },
+  {
+    "company": {
+      "company_id": "C064",
+      "details": {
+        "year": 2023,
+        "financials": {
+          "revenue": 4028,
+          "currency": "INR"
+        }
+      }
+    }
+  },
+  {
+    "company": {
+      "company_id": "C065",
+      "details": {
+        "year": 2023,
+        "financials": {
+          "revenue": 3123,
+          "currency": "USD"
+        }
+      }
+    }
+  },
+  {
+    "company": {
+      "company_id": "C066",
+      "details": {
+        "year": 2023,
+        "financials": {
+          "revenue": 4443,
+          "currency": "INR"
+        }
+      }
+    }
+  },
+  {
+    "company": {
+      "company_id": "C067",
+      "details": {
+        "year": 2023,
+        "financials": {
+          "revenue": 2651,
+          "currency": "EUR"
+        }
+      }
+    }
+  },
+  {
+    "company": {
+      "company_id": "C068",
+      "details": {
+        "year": 2023,
+        "financials": {
+          "revenue": 3072,
+          "currency": "USD"
+        }
+      }
+    }
+  },
+  {
+    "company": {
+      "company_id": "C069",
+      "details": {
+        "year": 2023,
+        "financials": {
+          "revenue": 3306,
+          "currency": "EUR"
+        }
+      }
+    }
+  },
+  {
+    "company": {
+      "company_id": "C070",
+      "details": {
+        "year": 2023,
+        "financials": {
+          "revenue": 4743,
+          "currency": "EUR"
+        }
+      }
+    }
+  },
+  {
+    "company": {
+      "company_id": "C071",
+      "details": {
+        "year": 2023,
+        "financials": {
+          "revenue": 3153,
+          "currency": "INR"
+        }
+      }
+    }
+  },
+  {
+    "company": {
+      "company_id": "C072",
+      "details": {
+        "year": 2023,
+        "financials": {
+          "revenue": 4817,
+          "currency": "INR"
+        }
+      }
+    }
+  },
+  {
+    "company": {
+      "company_id": "C073",
+      "details": {
+        "year": 2023,
+        "financials": {
+          "revenue": 3500,
+          "currency": "EUR"
+        }
+      }
+    }
+  },
+  {
+    "company": {
+      "company_id": "C074",
+      "details": {
+        "year": 2023,
+        "financials": {
+          "revenue": 1180,
+          "currency": "INR"
+        }
+      }
+    }
+  },
+  {
+    "company": {
+      "company_id": "C075",
+      "details": {
+        "year": 2023,
+        "financials": {
+          "revenue": 3405,
+          "currency": "INR"
+        }
+      }
+    }
+  },
+  {
+    "company": {
+      "company_id": "C076",
+      "details": {
+        "year": 2023,
+        "financials": {
+          "revenue": 1544,
+          "currency": "INR"
+        }
+      }
+    }
+  },
+  {
+    "company": {
+      "company_id": "C077",
+      "details": {
+        "year": 2023,
+        "financials": {
+          "revenue": 1886,
+          "currency": "INR"
+        }
+      }
+    }
+  },
+  {
+    "company": {
+      "company_id": "C078",
+      "details": {
+        "year": 2023,
+        "financials": {
+          "revenue": 1158,
+          "currency": "EUR"
+        }
+      }
+    }
+  },
+  {
+    "company": {
+      "company_id": "C079",
+      "details": {
+        "year": 2023,
+        "financials": {
+          "revenue": 1055,
+          "currency": "INR"
+        }
+      }
+    }
+  },
+  {
+    "company": {
+      "company_id": "C080",
+      "details": {
+        "year": 2023,
+        "financials": {
+          "revenue": 1174,
+          "currency": "EUR"
+        }
+      }
+    }
+  },
+  {
+    "company": {
+      "company_id": "C081",
+      "details": {
+        "year": 2023,
+        "financials": {
+          "revenue": 2091,
+          "currency": "EUR"
+        }
+      }
+    }
+  },
+  {
+    "company": {
+      "company_id": "C082",
+      "details": {
+        "year": 2023,
+        "financials": {
+          "revenue": 1261,
+          "currency": "USD"
+        }
+      }
+    }
+  },
+  {
+    "company": {
+      "company_id": "C083",
+      "details": {
+        "year": 2023,
+        "financials": {
+          "revenue": 1670,
+          "currency": "INR"
+        }
+      }
+    }
+  },
+  {
+    "company": {
+      "company_id": "C084",
+      "details": {
+        "year": 2023,
+        "financials": {
+          "revenue": 4051,
+          "currency": "EUR"
+        }
+      }
+    }
+  },
+  {
+    "company": {
+      "company_id": "C085",
+      "details": {
+        "year": 2023,
+        "financials": {
+          "revenue": 3594,
+          "currency": "USD"
+        }
+      }
+    }
+  },
+  {
+    "company": {
+      "company_id": "C086",
+      "details": {
+        "year": 2023,
+        "financials": {
+          "revenue": 3319,
+          "currency": "USD"
+        }
+      }
+    }
+  },
+  {
+    "company": {
+      "company_id": "C087",
+      "details": {
+        "year": 2023,
+        "financials": {
+          "revenue": 3759,
+          "currency": "USD"
+        }
+      }
+    }
+  },
+  {
+    "company": {
+      "company_id": "C088",
+      "details": {
+        "year": 2023,
+        "financials": {
+          "revenue": 4204,
+          "currency": "INR"
+        }
+      }
+    }
+  },
+  {
+    "company": {
+      "company_id": "C089",
+      "details": {
+        "year": 2023,
+        "financials": {
+          "revenue": 2263,
+          "currency": "USD"
+        }
+      }
+    }
+  },
+  {
+    "company": {
+      "company_id": "C090",
+      "details": {
+        "year": 2023,
+        "financials": {
+          "revenue": 4587,
+          "currency": "USD"
+        }
+      }
+    }
+  },
+  {
+    "company": {
+      "company_id": "C091",
+      "details": {
+        "year": 2023,
+        "financials": {
+          "revenue": 4021,
+          "currency": "INR"
+        }
+      }
+    }
+  },
+  {
+    "company": {
+      "company_id": "C092",
+      "details": {
+        "year": 2023,
+        "financials": {
+          "revenue": 4073,
+          "currency": "INR"
+        }
+      }
+    }
+  },
+  {
+    "company": {
+      "company_id": "C093",
+      "details": {
+        "year": 2023,
+        "financials": {
+          "revenue": 1204,
+          "currency": "EUR"
+        }
+      }
+    }
+  },
+  {
+    "company": {
+      "company_id": "C094",
+      "details": {
+        "year": 2023,
+        "financials": {
+          "revenue": 1200,
+          "currency": "USD"
+        }
+      }
+    }
+  },
+  {
+    "company": {
+      "company_id": "C095",
+      "details": {
+        "year": 2023,
+        "financials": {
+          "revenue": 4706,
+          "currency": "USD"
+        }
+      }
+    }
+  },
+  {
+    "company": {
+      "company_id": "C096",
+      "details": {
+        "year": 2023,
+        "financials": {
+          "revenue": 4270,
+          "currency": "EUR"
+        }
+      }
+    }
+  },
+  {
+    "company": {
+      "company_id": "C097",
+      "details": {
+        "year": 2023,
+        "financials": {
+          "revenue": 3140,
+          "currency": "EUR"
+        }
+      }
+    }
+  },
+  {
+    "company": {
+      "company_id": "C098",
+      "details": {
+        "year": 2023,
+        "financials": {
+          "revenue": 2242,
+          "currency": "EUR"
+        }
+      }
+    }
+  },
+  {
+    "company": {
+      "company_id": "C099",
+      "details": {
+        "year": 2023,
+        "financials": {
+          "revenue": 2286,
+          "currency": "USD"
+        }
+      }
+    }
+  },
+  {
+    "company": {
+      "company_id": "C100",
+      "details": {
+        "year": 2023,
+        "financials": {
+          "revenue": 1464,
+          "currency": "USD"
+        }
+      }
+    }
+  }
+]

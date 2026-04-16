@@ -1,0 +1,8 @@
+source_field,target_column,transformation,datatype
+ID,company_id,direct,varchar
+Name,company_name,upper,varchar
+Revenue,revenue,currency_convert,numeric
+Profit,profit,split_comma,numeric
+Year,year,direct,int
+Currency,currency,direct,varchar
+Period,period_type,map_cy_py,varchar

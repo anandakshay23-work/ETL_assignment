@@ -1,0 +1,37 @@
+{
+  "mapping_db": {
+    "type": "postgresql",
+    "host": "postgres",
+    "port": 5432,
+    "database": "etl_config_db",
+    "user": "etl_user",
+    "password": "etl_password",
+    "mapping_table": "mapping_xbrl"
+  },
+  "dwh_db": {
+    "type": "postgresql",
+    "host": "postgres",
+    "port": 5432,
+    "database": "etl_dwh_db",
+    "user": "etl_user",
+    "password": "etl_password"
+  },
+  "sources": [
+    {"name": "xbrl_xml", "type": "xml", "path": "/app/data/input/samplexml.xml"},
+    {"name": "hierarchical_xml", "type": "xml", "path": "/app/data/input/samplexml2.xml"},
+    {"name": "financials_json", "type": "json", "path": "/app/data/input/samplejson1.json"},
+    {"name": "period_json", "type": "json", "path": "/app/data/input/samplejson2.json"},
+    {"name": "complex_csv", "type": "csv", "path": "/app/data/input/sample_100.csv"}
+  ],
+  "currency_rates": {
+    "USD": 1.0,
+    "EUR": 1.08,
+    "INR": 0.012
+  },
+  "pipeline": {
+    "batch_id_prefix": "ETL",
+    "reject_path": "/app/data/reject",
+    "output_path": "/app/data/output",
+    "log_path": "/app/logs"
+  }
+}

@@ -1,0 +1,552 @@
+[
+  {
+    "company_id": "C001",
+    "financials": {
+      "CY": {
+        "revenue": 2094
+      },
+      "PY": {
+        "revenue": 3476
+      }
+    }
+  },
+  {
+    "company_id": "C002",
+    "financials": {
+      "CY": {
+        "revenue": 2342
+      },
+      "PY": {
+        "revenue": 1156
+      }
+    }
+  },
+  {
+    "company_id": "C003",
+    "financials": {
+      "CY": {
+        "revenue": 3907
+      },
+      "PY": {
+        "revenue": 1775
+      }
+    }
+  },
+  {
+    "company_id": "C004",
+    "financials": {
+      "CY": {
+        "revenue": 4884
+      },
+      "PY": {
+        "revenue": 3807
+      }
+    }
+  },
+  {
+    "company_id": "C005",
+    "financials": {
+      "CY": {
+        "revenue": 1001
+      },
+      "PY": {
+        "revenue": 4189
+      }
+    }
+  },
+  {
+    "company_id": "C006",
+    "financials": {
+      "CY": {
+        "revenue": 4639
+      },
+      "PY": {
+        "revenue": 3036
+      }
+    }
+  },
+  {
+    "company_id": "C007",
+    "financials": {
+      "CY": {
+        "revenue": 4836
+      },
+      "PY": {
+        "revenue": 1713
+      }
+    }
+  },
+  {
+    "company_id": "C008",
+    "financials": {
+      "CY": {
+        "revenue": 2582
+      },
+      "PY": {
+        "revenue": 4894
+      }
+    }
+  },
+  {
+    "company_id": "C009",
+    "financials": {
+      "CY": {
+        "revenue": 1853
+      },
+      "PY": {
+        "revenue": 4868
+      }
+    }
+  },
+  {
+    "company_id": "C010",
+    "financials": {
+      "CY": {
+        "revenue": 3397
+      },
+      "PY": {
+        "revenue": 4609
+      }
+    }
+  },
+  {
+    "company_id": "C011",
+    "financials": {
+      "CY": {
+        "revenue": 4960
+      },
+      "PY": {
+        "revenue": 4248
+      }
+    }
+  },
+  {
+    "company_id": "C012",
+    "financials": {
+      "CY": {
+        "revenue": 4039
+      },
+      "PY": {
+        "revenue": 1446
+      }
+    }
+  },
+  {
+    "company_id": "C013",
+    "financials": {
+      "CY": {
+        "revenue": 4323
+      },
+      "PY": {
+        "revenue": 2475
+      }
+    }
+  },
+  {
+    "company_id": "C014",
+    "financials": {
+      "CY": {
+        "revenue": 2946
+      },
+      "PY": {
+        "revenue": 1772
+      }
+    }
+  },
+  {
+    "company_id": "C015",
+    "financials": {
+      "CY": {
+        "revenue": 3369
+      },
+      "PY": {
+        "revenue": 1731
+      }
+    }
+  },
+  {
+    "company_id": "C016",
+    "financials": {
+      "CY": {
+        "revenue": 2936
+      },
+      "PY": {
+        "revenue": 2787
+      }
+    }
+  },
+  {
+    "company_id": "C017",
+    "financials": {
+      "CY": {
+        "revenue": 3167
+      },
+      "PY": {
+        "revenue": 2850
+      }
+    }
+  },
+  {
+    "company_id": "C018",
+    "financials": {
+      "CY": {
+        "revenue": 2225
+      },
+      "PY": {
+        "revenue": 1515
+      }
+    }
+  },
+  {
+    "company_id": "C019",
+    "financials": {
+      "CY": {
+        "revenue": 3018
+      },
+      "PY": {
+        "revenue": 4627
+      }
+    }
+  },
+  {
+    "company_id": "C020",
+    "financials": {
+      "CY": {
+        "revenue": 4471
+      },
+      "PY": {
+        "revenue": 1001
+      }
+    }
+  },
+  {
+    "company_id": "C021",
+    "financials": {
+      "CY": {
+        "revenue": 2816
+      },
+      "PY": {
+        "revenue": 4141
+      }
+    }
+  },
+  {
+    "company_id": "C022",
+    "financials": {
+      "CY": {
+        "revenue": 2366
+      },
+      "PY": {
+        "revenue": 3459
+      }
+    }
+  },
+  {
+    "company_id": "C023",
+    "financials": {
+      "CY": {
+        "revenue": 3318
+      },
+      "PY": {
+        "revenue": 2512
+      }
+    }
+  },
+  {
+    "company_id": "C024",
+    "financials": {
+      "CY": {
+        "revenue": 3867
+      },
+      "PY": {
+        "revenue": 2680
+      }
+    }
+  },
+  {
+    "company_id": "C025",
+    "financials": {
+      "CY": {
+        "revenue": 1275
+      },
+      "PY": {
+        "revenue": 4974
+      }
+    }
+  },
+  {
+    "company_id": "C026",
+    "financials": {
+      "CY": {
+        "revenue": 1316
+      },
+      "PY": {
+        "revenue": 1912
+      }
+    }
+  },
+  {
+    "company_id": "C027",
+    "financials": {
+      "CY": {
+        "revenue": 4558
+      },
+      "PY": {
+        "revenue": 2645
+      }
+    }
+  },
+  {
+    "company_id": "C028",
+    "financials": {
+      "CY": {
+        "revenue": 1159
+      },
+      "PY": {
+        "revenue": 4026
+      }
+    }
+  },
+  {
+    "company_id": "C029",
+    "financials": {
+      "CY": {
+        "revenue": 1880
+      },
+      "PY": {
+        "revenue": 3254
+      }
+    }
+  },
+  {
+    "company_id": "C030",
+    "financials": {
+      "CY": {
+        "revenue": 1894
+      },
+      "PY": {
+        "revenue": 3536
+      }
+    }
+  },
+  {
+    "company_id": "C031",
+    "financials": {
+      "CY": {
+        "revenue": 4266
+      },
+      "PY": {
+        "revenue": 2101
+      }
+    }
+  },
+  {
+    "company_id": "C032",
+    "financials": {
+      "CY": {
+        "revenue": 2986
+      },
+      "PY": {
+        "revenue": 3072
+      }
+    }
+  },
+  {
+    "company_id": "C033",
+    "financials": {
+      "CY": {
+        "revenue": 2117
+      },
+      "PY": {
+        "revenue": 4783
+      }
+    }
+  },
+  {
+    "company_id": "C034",
+    "financials": {
+      "CY": {
+        "revenue": 4056
+      },
+      "PY": {
+        "revenue": 3588
+      }
+    }
+  },
+  {
+    "company_id": "C035",
+    "financials": {
+      "CY": {
+        "revenue": 2808
+      },
+      "PY": {
+        "revenue": 4182
+      }
+    }
+  },
+  {
+    "company_id": "C036",
+    "financials": {
+      "CY": {
+        "revenue": 1887
+      },
+      "PY": {
+        "revenue": 4342
+      }
+    }
+  },
+  {
+    "company_id": "C037",
+    "financials": {
+      "CY": {
+        "revenue": 3489
+      },
+      "PY": {
+        "revenue": 3164
+      }
+    }
+  },
+  {
+    "company_id": "C038",
+    "financials": {
+      "CY": {
+        "revenue": 2189
+      },
+      "PY": {
+        "revenue": 1128
+      }
+    }
+  },
+  {
+    "company_id": "C039",
+    "financials": {
+      "CY": {
+        "revenue": 2109
+      },
+      "PY": {
+        "revenue": 2013
+      }
+    }
+  },
+  {
+    "company_id": "C040",
+    "financials": {
+      "CY": {
+        "revenue": 1067
+      },
+      "PY": {
+        "revenue": 1696
+      }
+    }
+  },
+  {
+    "company_id": "C041",
+    "financials": {
+      "CY": {
+        "revenue": 3261
+      },
+      "PY": {
+        "revenue": 1456
+      }
+    }
+  },
+  {
+    "company_id": "C042",
+    "financials": {
+      "CY": {
+        "revenue": 2052
+      },
+      "PY": {
+        "revenue": 4724
+      }
+    }
+  },
+  {
+    "company_id": "C043",
+    "financials": {
+      "CY": {
+        "revenue": 1706
+      },
+      "PY": {
+        "revenue": 3905
+      }
+    }
+  },
+  {
+    "company_id": "C044",
+    "financials": {
+      "CY": {
+        "revenue": 3756
+      },
+      "PY": {
+        "revenue": 2925
+      }
+    }
+  },
+  {
+    "company_id": "C045",
+    "financials": {
+      "CY": {
+        "revenue": 3142
+      },
+      "PY": {
+        "revenue": 3293
+      }
+    }
+  },
+  {
+    "company_id": "C046",
+    "financials": {
+      "CY": {
+        "revenue": 3253
+      },
+      "PY": {
+        "revenue": 4991
+      }
+    }
+  },
+  {
+    "company_id": "C047",
+    "financials": {
+      "CY": {
+        "revenue": 2600
+      },
+      "PY": {
+        "revenue": 1139
+      }
+    }
+  },
+  {
+    "company_id": "C048",
+    "financials": {
+      "CY": {
+        "revenue": 3820
+      },
+      "PY": {
+        "revenue": 3358
+      }
+    }
+  },
+  {
+    "company_id": "C049",
+    "financials": {
+      "CY": {
+        "revenue": 1317
+      },
+      "PY": {
+        "revenue": 3899
+      }
+    }
+  },
+  {
+    "company_id": "C050",
+    "financials": {
+      "CY": {
+        "revenue": 2895
+      },
+      "PY": {
+        "revenue": 4175
+      }
+    }
+  }
+]
