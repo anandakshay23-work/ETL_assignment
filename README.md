@@ -266,12 +266,13 @@ ETL_assignment/
 
 ## Assumptions
 
-1. **Currency rates** are static (USD=1.0, EUR=1.08, INR=0.012). In production, these would come from a live API.
-2. **First run** is a full load. Subsequent runs are incremental (based on company_id + period + source_file).
-3. **CSV metadata** (entity name, period dates) at the bottom of `sample_100.csv` is stored separately in `raw.csv_metadata`.
-4. **Company names** come only from `samplexml2.xml` (hierarchical XML). Other sources don't provide company names.
-5. **Date dimension** is pre-seeded with dates from 2019-2025 for BI analysis.
-6. **Profit** in JSON/XML sources is loaded directly; CSV profit requires `split_comma` cleanup.
+1. **Mapping DB uses PostgreSQL** instead of Oracle/MySQL. The assignment suggests Oracle/MySQL for the mapping table — we use PostgreSQL for both mapping and DWH to simplify deployment (single Docker container, no Oracle license required). The architecture is **fully database-driven** and DB-agnostic — switching to Oracle/MySQL requires only a connection string change and JDBC driver swap, with zero code changes.
+2. **Currency rates** are static (USD=1.0, EUR=1.08, INR=0.012). In production, these would come from a live API.
+3. **First run** is a full load. Subsequent runs are incremental (based on company_id + period + source_file).
+4. **CSV metadata** (entity name, period dates) at the bottom of `sample_100.csv` is stored separately in `raw.csv_metadata`.
+5. **Company names** come only from `samplexml2.xml` (hierarchical XML). Other sources don't provide company names.
+6. **Date dimension** is pre-seeded with dates from 2019-2025 for BI analysis.
+7. **Profit** in JSON/XML sources is loaded directly; CSV profit requires `split_comma` cleanup.
 
 ---
 
