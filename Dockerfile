@@ -26,6 +26,7 @@ COPY entrypoint.sh /app/entrypoint.sh
 
 # Create output directories
 RUN mkdir -p /app/data/output /app/data/reject /app/logs && \
+    sed -i 's/\r$//' /app/entrypoint.sh && \
     chmod +x /app/entrypoint.sh
 
 WORKDIR /app
