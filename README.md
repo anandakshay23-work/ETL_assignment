@@ -55,6 +55,13 @@ A production-grade ETL pipeline built with **PySpark** that ingests multi-format
 - **Docker Desktop** installed and running
 - No other dependencies needed — everything runs in containers
 
+### Services
+
+| Service | URL | Credentials |
+|---------|-----|-------------|
+| **PostgreSQL** | `localhost:5432` | User: `etl_user` / Pass: `etl_password` |
+| **pgAdmin 4** | [http://localhost:5050](http://localhost:5050) | Email: `admin@admin.com` / Pass: `admin` |
+
 ### Run the Pipeline
 
 ```bash
@@ -73,9 +80,20 @@ docker-compose down -v
 
 That's it! The pipeline will:
 1. Start PostgreSQL with both databases auto-configured
-2. Build the PySpark application container
-3. Execute the full ETL pipeline
-4. Output logs to `./logs/`
+2. Start **pgAdmin 4** with both databases pre-registered
+3. Build the PySpark application container
+4. Execute the full ETL pipeline
+5. Output logs to `./logs/`
+
+### Explore Data with pgAdmin
+
+After the pipeline completes, open **[http://localhost:5050](http://localhost:5050)** and log in:
+- **Email**: `admin@admin.com`
+- **Password**: `admin`
+
+Both databases are pre-configured under the **"ETL Pipeline"** server group:
+- **ETL Config DB** (`etl_config_db`) — mapping rules and pipeline metadata
+- **ETL Data Warehouse** (`etl_dwh_db`) — RAW / STAGING / DWH schemas with all tables and BI views
 
 ---
 
@@ -211,6 +229,9 @@ ETL_assignment/
 │   ├── 01-create-databases.sql # DB creation
 │   ├── 02-config-schema.sql    # Mapping table + seed
 │   └── 03-dwh-schema.sql      # RAW/STAGING/DWH schemas
+├── pgadmin/
+│   ├── servers.json            # Auto-registered DB servers
+│   └── pgpass                  # Passwordless DB connection
 ├── data/
 │   ├── input/                  # Source files
 │   ├── output/                 # Exported results
@@ -260,4 +281,5 @@ After pipeline execution:
 - **Logs**: `logs/etl_pipeline_YYYYMMDD_HHMMSS.log` (full execution trace)
 - **Reject files**: `data/reject/reject_<source>_<timestamp>.csv` (corrupted records + reasons)
 - **Database**: All data in PostgreSQL (`etl_dwh_db`) across RAW/STAGING/DWH layers
+- **pgAdmin 4**: Browse all databases, schemas, and tables at [http://localhost:5050](http://localhost:5050)
 - **BI Views**: Three pre-built views ready for Apache Superset connection

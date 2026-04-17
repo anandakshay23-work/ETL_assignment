@@ -1,0 +1,24 @@
+{
+  "Servers": {
+    "1": {
+      "Name": "ETL Config DB",
+      "Group": "ETL Pipeline",
+      "Host": "postgres",
+      "Port": 5432,
+      "MaintenanceDB": "etl_config_db",
+      "Username": "etl_user",
+      "SSLMode": "prefer",
+      "PassFile": "/pgadmin4/pgpass"
+    },
+    "2": {
+      "Name": "ETL Data Warehouse",
+      "Group": "ETL Pipeline",
+      "Host": "postgres",
+      "Port": 5432,
+      "MaintenanceDB": "etl_dwh_db",
+      "Username": "etl_user",
+      "SSLMode": "prefer",
+      "PassFile": "/pgadmin4/pgpass"
+    }
+  }
+}

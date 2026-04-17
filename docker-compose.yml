@@ -39,8 +39,38 @@ services:
     networks:
       - etl_network
 
+  pgadmin:
+    image: dpage/pgadmin4:latest
+    container_name: etl_pgadmin
+    restart: unless-stopped
+    depends_on:
+      postgres:
+        condition: service_healthy
+    environment:
+      PGADMIN_DEFAULT_EMAIL: admin@admin.com
+      PGADMIN_DEFAULT_PASSWORD: admin
+      PGADMIN_LISTEN_PORT: 80
+      PGADMIN_SERVER_JSON_FILE: /pgadmin4/servers.json
+    ports:
+      - "5050:80"
+    volumes:
+      - pgadmin_data:/var/lib/pgadmin
+      - ./pgadmin/servers.json:/pgadmin4/servers.json:ro
+      - ./pgadmin/pgpass:/pgadmin4/pgpass:ro
+    entrypoint: >
+      /bin/sh -c "
+        cp /pgadmin4/pgpass /tmp/pgpass &&
+        chmod 600 /tmp/pgpass &&
+        chown 5050:5050 /tmp/pgpass &&
+        sed -i 's|/pgadmin4/pgpass|/tmp/pgpass|g' /pgadmin4/servers.json 2>/dev/null || true &&
+        /entrypoint.sh
+      "
+    networks:
+      - etl_network
+
 volumes:
   postgres_data:
+  pgadmin_data:
 
 networks:
   etl_network:
